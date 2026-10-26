@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Removal Queue Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Removal Queue plug-ins.</description><item><title>Removal Queue 0.5.1 Preview</title><sparkle:version>501</sparkle:version><sparkle:shortVersionString>0.5.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.5.1</link><pubDate>Mon, 26 Oct 2026 17:54:08 +0000</pubDate><description>Removal Queue 0.5.1 Preview simplifies marking and improves access to queued photos.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Removal Queue Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Removal Queue plug-ins.</description><item><title>Removal Queue 0.5.2 Preview</title><sparkle:version>502</sparkle:version><sparkle:shortVersionString>0.5.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.5.2</link><pubDate>Mon, 26 Oct 2026 18:16:13 +0000</pubDate><description>Removal Queue 0.5.2 Preview makes processing and review simpler.
 
-- Four panel buttons: Start/Stop Marking, Process Marked Photos, Settings, and Show Marked Photos.
-- The panel opens at the upper-left edge of the usable screen. Queue Details is inside Settings.
-- The large number counts photos with observed new saved marks, excluding empty visits. Multiple marks on one photo count once; undoing its new marks removes it from the count.
-- Show Marked Photos opens a collection maintained by the plug-in without moving files. Processed results remain available for review.
-- Processing gathers queued catalog photos into an unfiltered temporary collection, so other folders, filmstrip filters, and folder stacks do not prevent selection. A bounded wait allows the intended photo to load while unexpected navigation still stops the batch.
-- A paused operation shows its actual reason instead of generic red Needs review text.
+- Process Marked Photos starts directly after scanning. A short prompt appears only if some marked photos have neither an original nor a Smart Preview.
+- Smart Previews are accepted for processing with the same generated-result checks. Preview-based retouching may need refreshing on originals for full-resolution quality; the guidance is in Help.
+- Processing checks saved catalog records first, then visits only marked photos in Develop. Photos you merely browsed are skipped. Late-saved marks and undo are reconciled without opening every visited photo.
+- Fixed the collection error caused by reading its ID before Lightroom finished creating it.
+- After a batch finishes, Show Marked Photos becomes Show Processed Photos. Confirmed results open in a separate collection for review and further editing. Each run replaces that collection's contents.
+- Settings now includes Clear Queue, with a short confirmation. Photo edits, recovery snapshots, and original files are kept.
 
-Saved queues and independent update notifications are preserved. The displayed count can lag after rapid navigation or when first reopening an older batch; the processing scan verifies all tracked photos before confirmation. This remains a preview pending native testing of the new collection, counter, and filtered-batch workflow.
+The four-button main panel, saved queue records, and independent update notifications are preserved. An 11-photo native run completed in 0.5.1. Smart Preview-only generation, the revised catalog checks, and the new review/clear controls remain native acceptance tests for this preview.
 </description></item></channel></rss><!-- sparkle-signatures:
-edSignature: FaDLTn5lEwzcGYfJBstJVtNKbGqRr7Sx/qGAD6RzrQIPeGzLjmITH/uCJ8rAVGq6fJWgLTraJL1nrlgqaIbRAA==
-length: 2325
+edSignature: NBp/f5Ro0Dw7VPyJUZgzBEqjfENz6uwDoTOJsPeZxWsE5/AvYIntV1NSSuEiRT9ngfycDIjl0jz5sxUkIf5SCQ==
+length: 2377
 -->
