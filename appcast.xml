@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Removal Queue Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Removal Queue plug-ins.</description><item><title>Removal Queue 0.5.3 Preview</title><sparkle:version>503</sparkle:version><sparkle:shortVersionString>0.5.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.5.3</link><pubDate>Mon, 26 Oct 2026 18:33:25 +0000</pubDate><description>Removal Queue 0.5.3 Preview introduces the Clean Sweep icon.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Removal Queue Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Removal Queue plug-ins.</description><item><title>Removal Queue 0.5.4 Preview</title><sparkle:version>504</sparkle:version><sparkle:shortVersionString>0.5.4</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.5.4</link><pubDate>Mon, 26 Oct 2026 20:12:22 +0000</pubDate><description>Removal Queue 0.5.4 Preview simplifies the Lightroom plug-in menus.
 
-- A clay-and-cream eraser gives Removal Queue its own identity alongside Sam's other photography tools.
-- The eraser appears in the floating window while no photos are marked. The photo count replaces it when marks are tracked; processing progress remains visible as before.
-- The Mac companion, update window, and Lightroom Plug-in Manager use the new icon.
+Both File and Library &gt; Plug-in Extras now contain only:
 
-Includes the direct processing, Smart Preview support, faster marked-photo scan, review collections, and Clear Queue controls from 0.5.2. This remains a preview release; the outstanding native acceptance checks are documented in the project.
+- Start Marking Selected Photos
+- Process Queue
+- Show Queue
+- Check for Updates
+- Settings
+
+Help, keyboard shortcut setup, Queue Selected Spot, Forget Selected Photos, and Save Diagnostic Report are available under Settings &gt; Tools. Choose a tool and click Open. Stop After Photo remains in the queue window, and Clear Queue and Queue Details remain in Settings.
+
+The existing marking, processing, and show-queue shortcut titles are unchanged. New shortcut setup installs those three commands, while remaining compatible with earlier installation records. Queue Selected Spot no longer has a standalone menu shortcut.
+
+Restart Lightroom after replacing the complete plug-in folder so it loads the new Settings menu script. This remains a preview release with the same native acceptance limits as 0.5.3.
 </description></item></channel></rss><!-- sparkle-signatures:
-edSignature: Sbv5fPcuBOclRJstFHFFYM7CDC/t+rNuBdL/6nruk7FVylfa1lnI07y0FUMSQUTa3/Vo3dCTblxDMV78lgPlBg==
-length: 1710
+edSignature: 2Jw0EHFtbcBKs4VmWG8WRR1T/I3Zz7HYr64+DP7LiigoP3vkokpUGiKcGgAA77SLxsYyuG6dS3ZIs4/KIhaRCA==
+length: 1983
 -->
