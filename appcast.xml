@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.0 Preview</title><sparkle:version>600</sparkle:version><sparkle:shortVersionString>0.6.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.0</link><pubDate>Mon, 26 Oct 2026 20:35:16 +0000</pubDate><description># Clean Sweep 0.6.0 Preview
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.1 Preview</title><sparkle:version>601</sparkle:version><sparkle:shortVersionString>0.6.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.1</link><pubDate>Mon, 26 Oct 2026 20:57:01 +0000</pubDate><description># Clean Sweep 0.6.1 Preview
 
-Removal Queue is now **Clean Sweep**. Existing queues, preferences, recovery snapshots, and update notices carry forward.
+- **Clone** is the default marking brush for new or unset preferences. Your saved Remove, Heal, or Clone choice is preserved.
+- Fix Settings errors after updating an already-open Lightroom installation. Brush preferences now use an existing module, and the Settings menu uses an established menu script, avoiding the new-script dependencies that triggered `MarkingTool` and `Settings.lua` errors.
+- **Clear Queue** returns from a Clean Sweep review collection to your previous photo and browsing view before emptying the collection. If you already browsed elsewhere, it preserves that newer location. After a plug-in reload, the current photo’s catalog folder is used when the earlier view is no longer known.
 
-- Choose **Remove**, **Heal**, or **Clone** as your marking brush in Settings. Remove remains the default. The choice applies when marking starts; browsing leaves your current Develop tool alone.
-- **Clear Queue** is now on the main window. It asks before clearing and keeps your photo edits and recovery snapshots.
-- A shorter floating window combines mode, readiness, and the processing estimate in one status line. Settings is a gear button; full details remain in Settings and tooltips.
-- Lightroom keeps the same five menu commands, now under Clean Sweep. Unchanged shortcuts installed by earlier versions migrate to the new names; custom assignments are preserved.
-- The existing marked/processed collections are reused. Only their old default names change; custom names are kept.
+Finish or stop your batch, close the floating window, replace the complete plug-in folder, then fully quit and reopen Lightroom once to refresh its cached scripts and menu entries. Your photo edits, saved preferences, and update connection are kept. Clearing the queue still asks for confirmation and preserves photo edits and recovery snapshots.
 
-Download `CleanSweep-0.6.0-preview.zip` and replace the complete `RemovalQueue.lrplugin` folder. Its folder name and internal identifiers remain unchanged to keep Lightroom registrations and saved batches working. Restart Lightroom to refresh menus and scripts. If shortcuts were migrated on that launch, restart again when convenient for macOS to reload them.
-
-Automated behavior and compatibility checks pass, including all three marking preferences, clear/cancel handling, status updates, and shortcut migration. Native interaction with the new controls still needs broader testing. Smart Preview-only and Windows workflows retain their preview validation status.
+Automated tests cover the default and saved brush choices, both Settings menu routes, clearing from either review collection, later manual navigation, reload fallback, filtered-photo recovery, and canceled or failed clearing. Native interaction with this patch still needs manual verification in Lightroom.
 </description></item></channel></rss><!-- sparkle-signatures:
-edSignature: /ytM6pH0IUeNrh9h4/lrDNNHy41p8osE/bNBZDn7oplChgMlqDQubLPN9pv6naiU6wB5Yjq2syeWhD+tXnzkAA==
-length: 2647
+edSignature: nwq6TpcosqSwCuQAsM70W25HspwABpHPSMrY3IxY+oALc69p/Q58a31tnAvbZ4kI5LCTnFKooe1IPsS9hSZ3Dw==
+length: 2437
 -->
