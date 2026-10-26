@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Removal Queue Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Removal Queue plug-ins.</description><item><title>Removal Queue 0.5.2 Preview</title><sparkle:version>502</sparkle:version><sparkle:shortVersionString>0.5.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.5.2</link><pubDate>Mon, 26 Oct 2026 18:16:13 +0000</pubDate><description>Removal Queue 0.5.2 Preview makes processing and review simpler.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Removal Queue Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Removal Queue plug-ins.</description><item><title>Removal Queue 0.5.3 Preview</title><sparkle:version>503</sparkle:version><sparkle:shortVersionString>0.5.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.5.3</link><pubDate>Mon, 26 Oct 2026 18:33:25 +0000</pubDate><description>Removal Queue 0.5.3 Preview introduces the Clean Sweep icon.
 
-- Process Marked Photos starts directly after scanning. A short prompt appears only if some marked photos have neither an original nor a Smart Preview.
-- Smart Previews are accepted for processing with the same generated-result checks. Preview-based retouching may need refreshing on originals for full-resolution quality; the guidance is in Help.
-- Processing checks saved catalog records first, then visits only marked photos in Develop. Photos you merely browsed are skipped. Late-saved marks and undo are reconciled without opening every visited photo.
-- Fixed the collection error caused by reading its ID before Lightroom finished creating it.
-- After a batch finishes, Show Marked Photos becomes Show Processed Photos. Confirmed results open in a separate collection for review and further editing. Each run replaces that collection's contents.
-- Settings now includes Clear Queue, with a short confirmation. Photo edits, recovery snapshots, and original files are kept.
+- A clay-and-cream eraser gives Removal Queue its own identity alongside Sam's other photography tools.
+- The eraser appears in the floating window while no photos are marked. The photo count replaces it when marks are tracked; processing progress remains visible as before.
+- The Mac companion, update window, and Lightroom Plug-in Manager use the new icon.
 
-The four-button main panel, saved queue records, and independent update notifications are preserved. An 11-photo native run completed in 0.5.1. Smart Preview-only generation, the revised catalog checks, and the new review/clear controls remain native acceptance tests for this preview.
+Includes the direct processing, Smart Preview support, faster marked-photo scan, review collections, and Clear Queue controls from 0.5.2. This remains a preview release; the outstanding native acceptance checks are documented in the project.
 </description></item></channel></rss><!-- sparkle-signatures:
-edSignature: NBp/f5Ro0Dw7VPyJUZgzBEqjfENz6uwDoTOJsPeZxWsE5/AvYIntV1NSSuEiRT9ngfycDIjl0jz5sxUkIf5SCQ==
-length: 2377
+edSignature: Sbv5fPcuBOclRJstFHFFYM7CDC/t+rNuBdL/6nruk7FVylfa1lnI07y0FUMSQUTa3/Vo3dCTblxDMV78lgPlBg==
+length: 1710
 -->
