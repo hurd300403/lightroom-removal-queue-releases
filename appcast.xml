@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Removal Queue Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Removal Queue plug-ins.</description><item><title>Removal Queue 0.5.4 Preview</title><sparkle:version>504</sparkle:version><sparkle:shortVersionString>0.5.4</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.5.4</link><pubDate>Mon, 26 Oct 2026 20:12:22 +0000</pubDate><description>Removal Queue 0.5.4 Preview simplifies the Lightroom plug-in menus.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.0 Preview</title><sparkle:version>600</sparkle:version><sparkle:shortVersionString>0.6.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.0</link><pubDate>Mon, 26 Oct 2026 20:35:16 +0000</pubDate><description># Clean Sweep 0.6.0 Preview
 
-Both File and Library &gt; Plug-in Extras now contain only:
+Removal Queue is now **Clean Sweep**. Existing queues, preferences, recovery snapshots, and update notices carry forward.
 
-- Start Marking Selected Photos
-- Process Queue
-- Show Queue
-- Check for Updates
-- Settings
+- Choose **Remove**, **Heal**, or **Clone** as your marking brush in Settings. Remove remains the default. The choice applies when marking starts; browsing leaves your current Develop tool alone.
+- **Clear Queue** is now on the main window. It asks before clearing and keeps your photo edits and recovery snapshots.
+- A shorter floating window combines mode, readiness, and the processing estimate in one status line. Settings is a gear button; full details remain in Settings and tooltips.
+- Lightroom keeps the same five menu commands, now under Clean Sweep. Unchanged shortcuts installed by earlier versions migrate to the new names; custom assignments are preserved.
+- The existing marked/processed collections are reused. Only their old default names change; custom names are kept.
 
-Help, keyboard shortcut setup, Queue Selected Spot, Forget Selected Photos, and Save Diagnostic Report are available under Settings &gt; Tools. Choose a tool and click Open. Stop After Photo remains in the queue window, and Clear Queue and Queue Details remain in Settings.
+Download `CleanSweep-0.6.0-preview.zip` and replace the complete `RemovalQueue.lrplugin` folder. Its folder name and internal identifiers remain unchanged to keep Lightroom registrations and saved batches working. Restart Lightroom to refresh menus and scripts. If shortcuts were migrated on that launch, restart again when convenient for macOS to reload them.
 
-The existing marking, processing, and show-queue shortcut titles are unchanged. New shortcut setup installs those three commands, while remaining compatible with earlier installation records. Queue Selected Spot no longer has a standalone menu shortcut.
-
-Restart Lightroom after replacing the complete plug-in folder so it loads the new Settings menu script. This remains a preview release with the same native acceptance limits as 0.5.3.
+Automated behavior and compatibility checks pass, including all three marking preferences, clear/cancel handling, status updates, and shortcut migration. Native interaction with the new controls still needs broader testing. Smart Preview-only and Windows workflows retain their preview validation status.
 </description></item></channel></rss><!-- sparkle-signatures:
-edSignature: 2Jw0EHFtbcBKs4VmWG8WRR1T/I3Zz7HYr64+DP7LiigoP3vkokpUGiKcGgAA77SLxsYyuG6dS3ZIs4/KIhaRCA==
-length: 1983
+edSignature: /ytM6pH0IUeNrh9h4/lrDNNHy41p8osE/bNBZDn7oplChgMlqDQubLPN9pv6naiU6wB5Yjq2syeWhD+tXnzkAA==
+length: 2647
 -->
