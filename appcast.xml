@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss version="2.0"><channel><title>Removal Queue Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Removal Queue plug-ins.</description></channel></rss><!-- sparkle-signatures:
-edSignature: rob0wZA/Z2z9dN4NaELh1xPK3jvmLcFYGFFgj3n7GsFOHIkp0mCv86LnYq/JJ17njp4SykaFDofv9mz6zQ/wCA==
-length: 527
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Removal Queue Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Removal Queue plug-ins.</description><item><title>Removal Queue 0.5.1 Preview</title><sparkle:version>501</sparkle:version><sparkle:shortVersionString>0.5.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.5.1</link><pubDate>Mon, 26 Oct 2026 17:54:08 +0000</pubDate><description>Removal Queue 0.5.1 Preview simplifies marking and improves access to queued photos.
+
+- Four panel buttons: Start/Stop Marking, Process Marked Photos, Settings, and Show Marked Photos.
+- The panel opens at the upper-left edge of the usable screen. Queue Details is inside Settings.
+- The large number counts photos with observed new saved marks, excluding empty visits. Multiple marks on one photo count once; undoing its new marks removes it from the count.
+- Show Marked Photos opens a collection maintained by the plug-in without moving files. Processed results remain available for review.
+- Processing gathers queued catalog photos into an unfiltered temporary collection, so other folders, filmstrip filters, and folder stacks do not prevent selection. A bounded wait allows the intended photo to load while unexpected navigation still stops the batch.
+- A paused operation shows its actual reason instead of generic red Needs review text.
+
+Saved queues and independent update notifications are preserved. The displayed count can lag after rapid navigation or when first reopening an older batch; the processing scan verifies all tracked photos before confirmation. This remains a preview pending native testing of the new collection, counter, and filtered-batch workflow.
+</description></item></channel></rss><!-- sparkle-signatures:
+edSignature: FaDLTn5lEwzcGYfJBstJVtNKbGqRr7Sx/qGAD6RzrQIPeGzLjmITH/uCJ8rAVGq6fJWgLTraJL1nrlgqaIbRAA==
+length: 2325
 -->
