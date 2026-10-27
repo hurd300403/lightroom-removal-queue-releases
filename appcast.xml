@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.2 Preview</title><sparkle:version>602</sparkle:version><sparkle:shortVersionString>0.6.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.2</link><pubDate>Tue, 27 Oct 2026 18:48:14 +0000</pubDate><description># Clean Sweep 0.6.2 Preview
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.3 Preview</title><sparkle:version>603</sparkle:version><sparkle:shortVersionString>0.6.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.3</link><pubDate>Tue, 27 Oct 2026 19:21:33 +0000</pubDate><description># Clean Sweep 0.6.3 Preview
 
-- **Process each photo in one visit.** Clean Sweep checks saved marks and file availability, then validates and generates each marked photo's removals before moving on. The separate scan through the photos is gone.
-- **Progress follows the remaining work.** Estimates adjust for undone marks, already-generated removals, and unavailable files as each photo is checked.
-- **Stop After Photo keeps the rest queued.** All pending removals and final validation on the current photo finish before stopping. Resume skips completed photos.
+- **Download updates directly.** Future update notices have a **Download** button that starts the complete ZIP download in your default browser, without sending you through the GitHub release page.
+- Mac notices retain release notes, **Later**, and **Skip This Version**. Automatic notices wait until Lightroom is idle and active.
+- Windows notices also use **Download** and link straight to the ZIP.
 
-Existing repair protection, recovery snapshots, and checks for confirmed generated results remain in place. Separate removal pins still generate sequentially. Your saved brush choice, queue records, and update settings carry forward.
+Install this version to get the new button. Your older installed version will still use its existing update notice to download 0.6.3.
 
-This remains a preview. Automated tests cover the new processing flow, stop/resume, older queues, and uncertain results. Native Lightroom testing and performance measurement of this change are still pending.
+Installation remains manual: finish or stop your batch, close the floating window, replace the complete `RemovalQueue.lrplugin` folder, and reload it in Plug-in Manager. Your photo edits, saved queue, brush preferences, and update connection are kept.
 
-Finish or stop your batch and close the floating window before replacing the complete `RemovalQueue.lrplugin` folder. Reload the plug-in in Plug-in Manager; if Lightroom retains old scripts or menus, fully quit and reopen it. Check for Updates opens a download notice; installation remains manual.
+This remains a preview. Automated signed-feed and notice tests pass; native update interaction and the single-pass processing checks in Lightroom still need manual verification.
 </description></item></channel></rss><!-- sparkle-signatures:
-edSignature: C1UNaZk7T+cwPw7wp2d2YPW/+bKIi5OCqb3skiyXb/d6fuYUyRY2oudcKJA6wU+2WzXfDPrzcRS/wPm0JWG5Dw==
-length: 2345
+edSignature: wd1cG3NEhel/ZJwpRQ5QUW9RLPcWzFL0RClML0HoSMk6TGnRZWxGRY1iRoCval7mvF+Qr/XvLj412af3Bs19Bw==
+length: 2037
 -->
