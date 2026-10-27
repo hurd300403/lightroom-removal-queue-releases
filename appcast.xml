@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.1 Preview</title><sparkle:version>601</sparkle:version><sparkle:shortVersionString>0.6.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.1</link><pubDate>Mon, 26 Oct 2026 20:57:01 +0000</pubDate><description># Clean Sweep 0.6.1 Preview
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.2 Preview</title><sparkle:version>602</sparkle:version><sparkle:shortVersionString>0.6.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.2</link><pubDate>Tue, 27 Oct 2026 18:48:14 +0000</pubDate><description># Clean Sweep 0.6.2 Preview
 
-- **Clone** is the default marking brush for new or unset preferences. Your saved Remove, Heal, or Clone choice is preserved.
-- Fix Settings errors after updating an already-open Lightroom installation. Brush preferences now use an existing module, and the Settings menu uses an established menu script, avoiding the new-script dependencies that triggered `MarkingTool` and `Settings.lua` errors.
-- **Clear Queue** returns from a Clean Sweep review collection to your previous photo and browsing view before emptying the collection. If you already browsed elsewhere, it preserves that newer location. After a plug-in reload, the current photo’s catalog folder is used when the earlier view is no longer known.
+- **Process each photo in one visit.** Clean Sweep checks saved marks and file availability, then validates and generates each marked photo's removals before moving on. The separate scan through the photos is gone.
+- **Progress follows the remaining work.** Estimates adjust for undone marks, already-generated removals, and unavailable files as each photo is checked.
+- **Stop After Photo keeps the rest queued.** All pending removals and final validation on the current photo finish before stopping. Resume skips completed photos.
 
-Finish or stop your batch, close the floating window, replace the complete plug-in folder, then fully quit and reopen Lightroom once to refresh its cached scripts and menu entries. Your photo edits, saved preferences, and update connection are kept. Clearing the queue still asks for confirmation and preserves photo edits and recovery snapshots.
+Existing repair protection, recovery snapshots, and checks for confirmed generated results remain in place. Separate removal pins still generate sequentially. Your saved brush choice, queue records, and update settings carry forward.
 
-Automated tests cover the default and saved brush choices, both Settings menu routes, clearing from either review collection, later manual navigation, reload fallback, filtered-photo recovery, and canceled or failed clearing. Native interaction with this patch still needs manual verification in Lightroom.
+This remains a preview. Automated tests cover the new processing flow, stop/resume, older queues, and uncertain results. Native Lightroom testing and performance measurement of this change are still pending.
+
+Finish or stop your batch and close the floating window before replacing the complete `RemovalQueue.lrplugin` folder. Reload the plug-in in Plug-in Manager; if Lightroom retains old scripts or menus, fully quit and reopen it. Check for Updates opens a download notice; installation remains manual.
 </description></item></channel></rss><!-- sparkle-signatures:
-edSignature: nwq6TpcosqSwCuQAsM70W25HspwABpHPSMrY3IxY+oALc69p/Q58a31tnAvbZ4kI5LCTnFKooe1IPsS9hSZ3Dw==
-length: 2437
+edSignature: C1UNaZk7T+cwPw7wp2d2YPW/+bKIi5OCqb3skiyXb/d6fuYUyRY2oudcKJA6wU+2WzXfDPrzcRS/wPm0JWG5Dw==
+length: 2345
 -->
