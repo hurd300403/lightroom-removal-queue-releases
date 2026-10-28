@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.3 Preview</title><sparkle:version>603</sparkle:version><sparkle:shortVersionString>0.6.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.3</link><pubDate>Tue, 27 Oct 2026 19:21:33 +0000</pubDate><description># Clean Sweep 0.6.3 Preview
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.4 Preview</title><sparkle:version>604</sparkle:version><sparkle:shortVersionString>0.6.4</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.4</link><pubDate>Wed, 28 Oct 2026 16:48:12 +0000</pubDate><description># Clean Sweep 0.6.4 Preview
 
-- **Download updates directly.** Future update notices have a **Download** button that starts the complete ZIP download in your default browser, without sending you through the GitHub release page.
-- Mac notices retain release notes, **Later**, and **Skip This Version**. Automatic notices wait until Lightroom is idle and active.
-- Windows notices also use **Download** and link straight to the ZIP.
+- Fixes the Mac update warning saying Clean Sweep cannot be updated from its download location and asking you to move it into Applications.
+- The companion stays inside `RemovalQueue.lrplugin`. Update checks now use its original installed location when macOS launches a temporarily relocated copy.
+- Signed-feed verification, the direct **Download** button, Later, and Skip This Version remain in place. No quarantine flags or macOS security settings are changed.
 
-Install this version to get the new button. Your older installed version will still use its existing update notice to download 0.6.3.
+If your current version shows the location warning, download this ZIP manually once. Finish or stop your batch, close the floating window, replace the complete `RemovalQueue.lrplugin` folder, and reload it in Plug-in Manager. Your saved queue, photo edits, and preferences remain intact.
 
-Installation remains manual: finish or stop your batch, close the floating window, replace the complete `RemovalQueue.lrplugin` folder, and reload it in Plug-in Manager. Your photo edits, saved queue, brush preferences, and update connection are kept.
-
-This remains a preview. Automated signed-feed and notice tests pass; native update interaction and the single-pass processing checks in Lightroom still need manual verification.
+The fix passed regression testing with the real Sparkle updater on a read-only test volume, including rejection of a tampered feed. Live Lightroom update interaction remains a manual acceptance check.
 </description></item></channel></rss><!-- sparkle-signatures:
-edSignature: wd1cG3NEhel/ZJwpRQ5QUW9RLPcWzFL0RClML0HoSMk6TGnRZWxGRY1iRoCval7mvF+Qr/XvLj412af3Bs19Bw==
-length: 2037
+edSignature: 3YijPwN3Id4blvj8HwHxfkVayTmRs9sZss1HN3c3MVlWR1CB9A/oKz0GaEJauX+C+nrcXzsIWZqOSo5eFEK7CA==
+length: 2024
 -->
