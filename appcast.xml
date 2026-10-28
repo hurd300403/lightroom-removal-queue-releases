@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.5 Preview</title><sparkle:version>605</sparkle:version><sparkle:shortVersionString>0.6.5</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.5</link><pubDate>Wed, 28 Oct 2026 17:04:02 +0000</pubDate><description># Clean Sweep 0.6.5 Preview
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.6 Preview</title><sparkle:version>606</sparkle:version><sparkle:shortVersionString>0.6.6</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.6</link><pubDate>Wed, 28 Oct 2026 17:47:01 +0000</pubDate><description># Clean Sweep 0.6.6 Preview
 
-- Settings now includes **The Legacy Lab**, with buttons for the app directory and Sam Hurd on Patreon.
-- Choose **Gainmap**, **The Epic Workflow**, **Secondlight**, **Insight**, or **LeadLens**, then click **Open Link**. Gainmap and The Epic Workflow open their Patreon download posts. Links open in your browser and keep your Settings choices available until you save or cancel.
-- The downloaded plug-in folder is now **CleanSweep.lrplugin**, and Plug-in Manager displays **Clean Sweep**. Saved queues, preferences, and the update connection use the same internal identifier.
-- Includes the 0.6.4 fix for the Mac update-location warning, along with the direct ZIP **Download** button.
+- Settings now uses a compact native layout: **Settings**, **Tools**, and **Legacy Lab** tabs, with the Clean Sweep icon and version in the header.
+- Brush, filmstrip marker, and update preferences have shorter explanations. **Help** and the marker's **?** button explain the details without losing your changes. Switching tabs also keeps your changes until **Save** or **Cancel**.
+- Tools have direct buttons. **Add Existing Spot** is the clearer name for Queue Selected Spot; Queue Details and Clear Queue are on the Tools tab. Opening an action closes Settings without saving unfinished preferences, and Clear Queue still asks for confirmation.
+- The Legacy Lab tab has direct links to the app directory, Patreon, Gainmap, The Epic Workflow, Secondlight, Insight, and LeadLens.
+- Includes the Mac update-location fix and direct ZIP **Download** button from earlier previews. The complete download contains **CleanSweep.lrplugin**.
 
-**Upgrading from RemovalQueue.lrplugin:** finish or stop your batch and close the status window. Disable the old plug-in, move its folder out of Lightroom's Modules folder if installed there, and add/enable the new CleanSweep.lrplugin from its permanent location. Remove the old registration if it remains listed; keep only the new copy enabled. Alternatively, rename the downloaded folder to RemovalQueue.lrplugin before replacing the old folder in place, then reload it in Plug-in Manager. Keep the Mac companion inside the complete plug-in folder.
+Finish or stop your batch and close the status window before replacing your plug-in, then reload it in Plug-in Manager. If your installed folder is still named **RemovalQueue.lrplugin**, follow the migration instructions in the included README, or rename the downloaded folder to match before replacing it in place. Keep the Mac companion inside the complete plug-in folder.
 
-If your current version still shows the Mac download-location warning, download this ZIP manually once. Native Lightroom checks of the new Settings section and folder registration remain manual acceptance steps.
+Native Lightroom rendering and interaction with the new tabs remain manual acceptance checks. Saved queues, preferences, processing behavior, and the update connection are unchanged.
 </description></item></channel></rss><!-- sparkle-signatures:
-edSignature: 6mFTmFvtqRfcHQXV0gdjDvy5plIsm+/LbipkYEkmb9TsU9p4SGahWlPdNugXcVb3t9BheNC4/cwKEUtBpuhnBw==
-length: 2521
+edSignature: sj8XlvD02wi9tzPh7v+uQXoHbXQJtFuD2Uk5zV8qcKVkSHkzOLir1YauPL5dtADXs8ZxjHrS6g1+D75INIHOAA==
+length: 2563
 -->
