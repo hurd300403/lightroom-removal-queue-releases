@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.4 Preview</title><sparkle:version>604</sparkle:version><sparkle:shortVersionString>0.6.4</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.4</link><pubDate>Wed, 28 Oct 2026 16:48:12 +0000</pubDate><description># Clean Sweep 0.6.4 Preview
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Clean Sweep Updates</title><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases</link><description>Updates for installed Clean Sweep plug-ins.</description><item><title>Clean Sweep 0.6.5 Preview</title><sparkle:version>605</sparkle:version><sparkle:shortVersionString>0.6.5</sparkle:shortVersionString><sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion><sparkle:informationalUpdate></sparkle:informationalUpdate><link>https://github.com/hurd300403/lightroom-removal-queue-releases/releases/tag/v0.6.5</link><pubDate>Wed, 28 Oct 2026 17:04:02 +0000</pubDate><description># Clean Sweep 0.6.5 Preview
 
-- Fixes the Mac update warning saying Clean Sweep cannot be updated from its download location and asking you to move it into Applications.
-- The companion stays inside `RemovalQueue.lrplugin`. Update checks now use its original installed location when macOS launches a temporarily relocated copy.
-- Signed-feed verification, the direct **Download** button, Later, and Skip This Version remain in place. No quarantine flags or macOS security settings are changed.
+- Settings now includes **The Legacy Lab**, with buttons for the app directory and Sam Hurd on Patreon.
+- Choose **Gainmap**, **The Epic Workflow**, **Secondlight**, **Insight**, or **LeadLens**, then click **Open Link**. Gainmap and The Epic Workflow open their Patreon download posts. Links open in your browser and keep your Settings choices available until you save or cancel.
+- The downloaded plug-in folder is now **CleanSweep.lrplugin**, and Plug-in Manager displays **Clean Sweep**. Saved queues, preferences, and the update connection use the same internal identifier.
+- Includes the 0.6.4 fix for the Mac update-location warning, along with the direct ZIP **Download** button.
 
-If your current version shows the location warning, download this ZIP manually once. Finish or stop your batch, close the floating window, replace the complete `RemovalQueue.lrplugin` folder, and reload it in Plug-in Manager. Your saved queue, photo edits, and preferences remain intact.
+**Upgrading from RemovalQueue.lrplugin:** finish or stop your batch and close the status window. Disable the old plug-in, move its folder out of Lightroom's Modules folder if installed there, and add/enable the new CleanSweep.lrplugin from its permanent location. Remove the old registration if it remains listed; keep only the new copy enabled. Alternatively, rename the downloaded folder to RemovalQueue.lrplugin before replacing the old folder in place, then reload it in Plug-in Manager. Keep the Mac companion inside the complete plug-in folder.
 
-The fix passed regression testing with the real Sparkle updater on a read-only test volume, including rejection of a tampered feed. Live Lightroom update interaction remains a manual acceptance check.
+If your current version still shows the Mac download-location warning, download this ZIP manually once. Native Lightroom checks of the new Settings section and folder registration remain manual acceptance steps.
 </description></item></channel></rss><!-- sparkle-signatures:
-edSignature: 3YijPwN3Id4blvj8HwHxfkVayTmRs9sZss1HN3c3MVlWR1CB9A/oKz0GaEJauX+C+nrcXzsIWZqOSo5eFEK7CA==
-length: 2024
+edSignature: 6mFTmFvtqRfcHQXV0gdjDvy5plIsm+/LbipkYEkmb9TsU9p4SGahWlPdNugXcVb3t9BheNC4/cwKEUtBpuhnBw==
+length: 2521
 -->
